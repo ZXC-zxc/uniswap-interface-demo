@@ -1,0 +1,36 @@
+{
+  "name": "uniswap-interface-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "pretty-quick --staged",
+    "prepare": "tsc",
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.58",
+    "husky": "^4.3.0",
+    "prettier": "^2.1.1",
+    "pretty-quick": "^3.0.2",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@ethersproject/address": "^5.0.4",
+    "@ethersproject/contracts": "^5.0.4",
+    "@ethersproject/networks": "^5.0.3",
+    "@ethersproject/providers": "^5.0.8",
+    "@ethersproject/solidity": "^5.0.4",
+    "@types/express": "^4.17.8",
+    "@uniswap/sdk": "^3.0.3-beta.1",
+    "ethereumjs-tx": "^2.1.2",
+    "express": "^4.17.1",
+    "web3": "^1.2.11"
+  }
+}
